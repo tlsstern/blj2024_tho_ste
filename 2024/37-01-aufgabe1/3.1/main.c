@@ -3,7 +3,8 @@
 int main(void) {
     printf("Thomas Stern\nTalstrasse 8\nZollikon \nSchweiz \n+41 77 528 38 89\n \n");
 
-    char c = 'p';
+    char c1 = 'P';
+    char c2 ='x';
     int i = 32000;
     short s = 324;
     long l = 328932;
@@ -21,13 +22,17 @@ int main(void) {
     printf("----------------------------------------------------------------------------------------------\n");
     printf("Variabele\t\t Zeichen\t\t dez\t\t hex\t\t okt\n");
     printf("----------------------------------------------------------------------------------------------\n");
-    printf("c [char] \t\t'P'\t\t80\t\t50\t\t120\n");
-    printf("c [char] \t\t'x'\t\t120\t\t78\t\t170\n");
-    printf("s [short] \t\t\t\t324\t\t144\t\t504\n");
-    printf("i [int] \t\t\t\t32000\t\tc80\t\t6200\n");
-    printf("l [long] \t\t\t\t328932\t\t504e4\t\t1202344\n");
-    printf("f [float] \t\t\t\t3.141593\t80000000\t10002220773\n");
-    printf("d [double] \t\t\t\t2.717200\t5a858794\t10001336323\n");
+    printf("c [char]\t %c\t\t %d\t\t %x\t\t %o\t\n", c1, c1, c1, c1);
+    printf("c [char]\t %c\t\t %d\t\t %x\t\t %o\t\n", c2, c2, c2, c2);
+    printf("s [short]\t\t\t %d\t\t %x\t\t %o\t\n", i, i, i);
+    printf("i [int]\t\t\t\t %d\t\t %x\t\t %o\t\n", s, s, s);
+    printf("l [long]\t\t\t %d\t\t %x\t\t %o\t\n", l, l, l);
+    printf("f [float]\t\t\t %f\t %x\t %o\t\n", f, f, f);
+    printf("d [double]\t\t\t %f\t %x\t %o\t\n", d, d, d);
+
+    unsigned char uc = 258;
+
+    printf("This is the size of %d\n",uc);
 
 
 
