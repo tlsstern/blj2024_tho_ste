@@ -34,7 +34,7 @@ int main(void) {
 
     printf("This is the size of %d\n",uc);
 
-
+    // Es Zeigt nur 2 weil nach 256 zählt es wieder rauf
 
     return 0;
 
