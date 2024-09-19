@@ -8,6 +8,7 @@ int main() {
 }
 void binRead() {
     int binNumber;
+    printf("Please enter a binary-number: ");
     scanf("%d", &binNumber);
     int deciNumber = 0;
     int base = 1;

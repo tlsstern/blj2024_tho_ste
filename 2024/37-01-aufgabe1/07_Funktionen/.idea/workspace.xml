@@ -24,47 +24,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="284c156a-ea53-4fa9-9fa6-76c81323d40a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../08_Funktionen/Funktionen.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/07_Funktionen.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_Operatoren/operatoren.c" beforeDir="false" afterPath="$PROJECT_DIR$/../05_Operatoren/operatoren.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/.idea/Debugging.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Debugging/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Debugging/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Debugging/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/Aufgabe_7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/7.2.3.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/main/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/main/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/schaltjahr_calc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/Schaltjahr_calc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.2.3.c" beforeDir="false" afterPath="$PROJECT_DIR$/7.2.3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_Funktionen/Funktionen.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_Funktionen/Funktionen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_Funktionen/funktionen_2.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_Funktionen/funktionen_2.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,11 +78,6 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Aufgabe_7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Aufgabe_7" TARGET_NAME="Aufgabe_7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Aufgabe_7" RUN_TARGET_NAME="Aufgabe_7">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -298,6 +258,9 @@
       <updated>1726651595833</updated>
       <workItem from="1726651599847" duration="5685000" />
       <workItem from="1726668152769" duration="440000" />
+      <workItem from="1726727355926" duration="1225000" />
+      <workItem from="1726728985498" duration="3000" />
+      <workItem from="1726731469867" duration="290000" />
     </task>
     <servers />
   </component>

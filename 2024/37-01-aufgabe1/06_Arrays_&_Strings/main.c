@@ -1,13 +1,15 @@
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
 void wordTwist();
-
 void wordSquare();
+void anagram();
 
 int main(void) {
     wordTwist();
     wordSquare();
+    anagram();
     return 0;
 }
 
@@ -44,4 +46,19 @@ void wordSquare() {
     printf("%s\n", word);
 }
 
-
+void anagram() {
+    printf("Enter word to check if its annagram: \n");
+    unsigned char anagram_word[100];
+    char reversed_word[100];
+    scanf("%s", anagram_word);
+    // strcpy = copys a word from one string to an other
+    strcpy(reversed_word, anagram_word);
+    // _strrev reverses a string so from auto -> otua
+    _strrev(reversed_word);
+    // strcmp checks two strings are the same
+    if (strcmp(reversed_word, anagram_word) == 0) {
+        printf("Is an anagram\n");
+    } else {
+        printf("Is not an anagram\n");
+    }
+}

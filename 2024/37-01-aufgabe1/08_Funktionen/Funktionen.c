@@ -5,9 +5,11 @@ void binPrint();
 
 int main(void) {
     char b[100];
-    int i = -4;
-    binPrint(i, b);
-    printf("%d = %s\n", i, b);
+    int dezNumber = 0;
+    printf("Enter a number: ");
+    scanf("%d", &dezNumber);
+    binPrint(dezNumber, b);
+    printf("%d = %s\n", dezNumber, b);
 
     return 0;
 }

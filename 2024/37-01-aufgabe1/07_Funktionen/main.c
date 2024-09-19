@@ -6,23 +6,23 @@ void anrede2();
 void anrede3(); // anrede3 muss mit void anrede3 von unter heraufgezogen werden.
 bool anrede4();
 
-void auf() {
-    printf("Aufgabe 1\n");
+void main() {
     anrede1();
-    printf("Aufgabe 2\n");
     anrede2(0);
     anrede2(1);
-    printf("Aufgabe 4-6\n");
     anrede3(1);
     printf("Aufgabe 7\n");
-    anrede4(1);
+    const char true_false = anrede4(2);
+    printf("anrede 4 ist%c \n",true_false);
 }
 
 void anrede1() {
+    printf("Aufgabe 1\n");
     printf("Guten Tag Herr XY\n");
 }
 
 void anrede2(int wert) {
+    printf("Aufgabe 2\n");
     if (wert == 0) {
         printf("Guten Tag Herr XY\n");
     }else {
@@ -31,6 +31,7 @@ void anrede2(int wert) {
 }
 
 void anrede3(int wert) {
+    printf("Aufgabe 4-6\n");
     if (wert == 0) {
         printf("Guten Tag Herr XY\n");
     }else if (wert == 1) {
@@ -51,4 +52,3 @@ bool anrede4(int b) {
         return true;
     }
 }
-

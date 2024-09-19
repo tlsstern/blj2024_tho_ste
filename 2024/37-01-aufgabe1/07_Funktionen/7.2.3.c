@@ -4,7 +4,7 @@
 float flaeche_kreis(float radius);
 float kleiner_zahl(float zahl1, float zahl2);
 
-float auf(void){
+float ni(void){
     flaeche_kreis(10);
     kleiner_zahl(32.69, 35);
     return 0;
