@@ -1,24 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Aufgabe_7" targetName="Aufgabe_7" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="80b7f463-80cb-4fd2-bc1b-7ac77943b9f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../3.1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/Gruppenarbeit-Kontrollstruktur.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.1/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/.idea/helloworld.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/main.c" beforeDir="false" />
+    <list default="true" id="284c156a-ea53-4fa9-9fa6-76c81323d40a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../08_Funktionen/Funktionen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/07_Funktionen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/.idea/Debugging.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Debugging/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Debugging/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Debugging/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/Aufgabe_7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/7.2.3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/Aufgabe_7/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/main/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/main/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/schaltjahr_calc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debugging/schaltjahr_calc/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/Schaltjahr_calc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Schaltjahr_calc/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +74,27 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="2mEpRHbzbZHQJVPX3WEt6k8j9BO" />
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="2.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mEpTIsC4KYnjXXSQXnnhQJwSM5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "CMake Application.Aufgabe_7.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -49,23 +103,210 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Projects/blj2024_tho_ste/2024/37-01-aufgabe1/07_Funktionen",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Aufgabe_7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Aufgabe_7" TARGET_NAME="Aufgabe_7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Aufgabe_7" RUN_TARGET_NAME="Aufgabe_7">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="07_Funktionen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="80b7f463-80cb-4fd2-bc1b-7ac77943b9f4" name="Changes" comment="" />
-      <created>1726651579465</created>
+      <changelist id="284c156a-ea53-4fa9-9fa6-76c81323d40a" name="Changes" comment="" />
+      <created>1726651595833</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1726651579465</updated>
-      <workItem from="1726651580503" duration="15000" />
+      <updated>1726651595833</updated>
+      <workItem from="1726651599847" duration="5685000" />
+      <workItem from="1726668152769" duration="440000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
 </project>
