@@ -6,11 +6,13 @@ void deci_octa_hex();
 void hex_octa_zu_dec();
 void char_128();
 
+
 int main(void) {
     deci_octa_hex();
     kreis_umfang();
     hex_octa_zu_dec();
     char_128();
+
 }
 
 void deci_octa_hex() {
@@ -32,8 +34,7 @@ void kreis_umfang() {
 
 void hex_octa_zu_dec() {
     int hex, octa;
-    printf("\n10"
-           "Bitte geben Sie Ihre Hexadezimale Zahl ein: \n");
+    printf("\nBitte geben Sie Ihre Hexadezimale Zahl ein: \n");
     scanf("%x", &hex);
     printf("Ihre Zahl ist %d in Dezimal.\n", hex);
 
