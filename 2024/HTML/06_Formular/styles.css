@@ -1,0 +1,19 @@
+body {
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px 25px 8px 25px;
+    text-align: left;
+}

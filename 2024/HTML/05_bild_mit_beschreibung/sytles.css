@@ -1,0 +1,24 @@
+#img {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/800px-Altja_j%C3%B5gi_Lahemaal.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+    border: black solid 10px;
+    z-index: 0;
+    position: relative;    
+}
+
+#text{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5%;
+    margin: 0;
+    border-bottom: black solid 10px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 25px;
+}
