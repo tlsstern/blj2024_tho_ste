@@ -6,7 +6,7 @@ body{
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 1em 2em;
     background-color: #433878;
     color: #c4c4c4;
     position: sticky;
@@ -21,9 +21,9 @@ body{
 .navbar-link .link {
     color: #c4c4c4;
     padding: 8px 15px;
-    border-radius: 30px;
+    border-radius: 1.5em;
     border: 1px solid #c4c4c4;
-    margin-left: 10px;
+    margin-left: 0.5em;
     transition: background-color 0.5s ease;
     text-decoration: none;
 }
@@ -35,13 +35,12 @@ body{
 
 .box{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    max-width: 750px;
-    margin: 40px auto;
-    padding: 20px 40px;
-    border-radius: 10px;
-    margin: 40px auto;
-    line-height: 20px;
     max-width: 40%;
+    margin: 2em auto;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    margin: 2em auto;
+    line-height: 1.2em;
 }
 
 footer {
@@ -50,7 +49,7 @@ footer {
     align-items: center;
     background-color: #433878;
     color: #c4c4c4;
-    padding: 20px 40px;
+    padding: 1.2em 0 1.2em 0;
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -63,4 +62,39 @@ footer {
 footer a {
     text-decoration: none;
     color: #c4c4c4;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .box{
+        margin: 40px 20px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    footer {
+        display: grid;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer-contant {
+        margin-left: 0;
+    }
+    
+    .footer-contant {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .navbar-link {
+        display: grid;
+        text-align: center;
+    }
+
+    .link{
+        margin: 1.5px 0 1.5px 0;
+    }
 }
