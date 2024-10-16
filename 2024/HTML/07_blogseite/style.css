@@ -3,6 +3,11 @@ body{
     font-family: "Afacad Flux", sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: 7E60BF;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -10,13 +15,13 @@ body{
     background-color: #433878;
     color: #c4c4c4;
     position: sticky;
+    top: 0;
+    z-index: 20;
 }
 
 .navbar-link{
     align-self: center;
 }
-
-
 
 .navbar-link .link {
     color: #c4c4c4;
@@ -39,8 +44,11 @@ body{
     margin: 2em auto;
     padding: 1em 2em;
     border-radius: 0.5em;
-    margin: 2em auto;
     line-height: 1.2em;
+}
+
+#last_box{
+    margin-bottom: 4.3em;
 }
 
 footer {
@@ -51,8 +59,8 @@ footer {
     color: #c4c4c4;
     padding: 1.2em 0 1.2em 0;
     bottom: 0;
-    position: fixed;
     width: 100%;
+    position: fixed;
 }
 
 .footer-contant {
@@ -77,6 +85,7 @@ footer a {
         display: grid;
         text-align: center;
         padding-bottom: 20px;
+        position: static;
     }
 
     .footer-contant {
@@ -87,12 +96,20 @@ footer a {
         margin-bottom: 10px;
         margin-left: 0;
     }
+
+    #last_box{
+        margin: 2em 1em;
+    }
 }
 
 @media only screen and (max-width: 460px) {
     .navbar-link {
         display: grid;
         text-align: center;
+    }
+
+    .navbar{
+        position: static;
     }
 
     .link{
