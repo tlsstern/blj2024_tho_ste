@@ -35,7 +35,7 @@ body{
 
 .box{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    max-width: 40%;
+    max-width: 750px;
     margin: 2em auto;
     padding: 1em 2em;
     border-radius: 0.5em;
@@ -67,11 +67,12 @@ footer a {
 
 @media only screen and (max-width: 850px) {
     .box{
-        margin: 40px 20px;
+        margin: 2em 1em;
+        max-width: 100%;
     }
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 585px) {
     footer {
         display: grid;
         text-align: center;
@@ -96,5 +97,11 @@ footer a {
 
     .link{
         margin: 1.5px 0 1.5px 0;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    .box{
+        max-width: 50%;
     }
 }
