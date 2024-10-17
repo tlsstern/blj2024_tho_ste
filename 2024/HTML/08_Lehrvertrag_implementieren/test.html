@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <label for="name">Name:</label>
+                </div>
+            </td>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="vorname" placeholder="Vorname">
+                    <label for="vorname">Vorname:</label>
+                </div>
+            </td>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="gebdat" placeholder="Geb.-Datum">
+                    <label for="gebdat">Geb.-Datum:</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="header" colspan="2">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="strasse" placeholder="Strasse">
+                    <label for="strasse">Strasse:</label>
+                </div>
+            </td>
+            <td class="header right-column" rowspan="2">Muttersprache: <br>
+                <div class="spaced-checkboxes">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="d">
+                        <label class="form-check-label" for="d">d</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="f">
+                        <label class="form-check-label" for="f">f</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="i">
+                        <label class="form-check-label" for="i">i</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="rät">
+                        <label class="form-check-label" for="rät">rät.</label>
+                    </div>
+                </div><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="andere">
+                    <label class="form-check-label" for="andere">
+                        <input type="text" class="form-control" id="anderes_input" placeholder="andere">
+                    </label>
+                </div>
+                <div class="gender-options" id="geschlecht">
+                    <span>Geschlecht:</span>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender_m" value="M">
+                        <label class="form-check-label" for="gender_m">m</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender_f" value="F">
+                        <label class="form-check-label" for="gender_f">f</label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="header" colspan="2">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="plz" placeholder="PLZ/Ort">
+                    <label for="plz">PLZ/Ort:</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="tel" placeholder="Tel.-Nr.">
+                    <label for="tel">Tel.-Nr.:</label>
+                </div>
+            </td>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="heimatort" placeholder="Heimatort">
+                    <label for="heimatort">Heimatort:</label>
+                </div>
+            </td>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="ahv" placeholder="AHV-Nr.">
+                    <label for="ahv">AHV-Nr.:</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="mobile" placeholder="Mobile">
+                    <label for="mobile">Mobile:</label>
+                </div>
+            </td>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="kanton" placeholder="Kanton"><label
+                        for="kanton">Kanton:</label>
+                </div>
+            </td>
+
+            <td class="header right-column" rowspan="2">Ausländerausweis:
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="niederlassung_c">
+                    <label class="form-check-label" for="niederlassung_c">Niederlassung C</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="ausl">
+                    <input class="form-check-input" type="checkbox" id="andere">
+                    <label class="form-check-label" for="andere">
+                        <input type="text" class="form-control" id="anderes_input" placeholder="anderer Status*">
+                    </label>
+                    </label>
+                </div>
+
+                <span class="small-text">* Zwingend angeben <br> (Setzt ein entsprechendes Gesuch bei der
+                    Fremdenpolizei bzw. <br> beim Amt für Migration durch den Lehrbetrieb voraus.)</span>
+            </td>
+        </tr>
+        <tr>
+
+            <td class="header">
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="E-Mail">
+                    <label for="email">E-Mail:</label>
+                </div>
+            </td>
+            <td class="header">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="staat" placeholder="Staat">
+                    <label for="staat">Staat:</label>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

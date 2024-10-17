@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.header {
+    background-color: #B0D8F7;
+    font-weight: bold;
+    text-align: left;
+    width: 30%;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.small-text {
+    font-size: 0.8em;
+}
+
+.spaced-checkboxes .form-check {
+    margin-right: 15px;
+}
+
+.gender-options {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.gender-options .form-check {
+    margin-right: 10px;
+}
+
+.right-column {
+    width: 25%;
+}
+
+#plz {
+    margin-bottom: 30px;
+}
+
+#geschlecht {
+    position: relative;
+    top: 20px;
+}
+
+#status{
+    position: relative;
+    top: -3px;
+    left: -8px;
+    padding: 10px;
+}
