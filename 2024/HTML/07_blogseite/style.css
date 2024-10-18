@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: "Afacad Flux", sans-serif;
+    scroll-behavior: smooth;
 }
 
 a{

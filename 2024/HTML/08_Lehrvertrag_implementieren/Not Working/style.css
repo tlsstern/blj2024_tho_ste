@@ -1,0 +1,55 @@
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    background-color: white;
+    border-left: #b2d0dd 10px solid;
+    border-right: #b2d0dd 10px solid;
+    border-bottom: #b2d0dd 3px solid;
+    border-top: #b2d0dd 3px solid;
+}
+
+table{
+    border-collapse: collapse;
+    max-width: 70%;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+th{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px;
+    margin: 0 15% 0 15%;
+}
+body, title, h1, p, input{
+    color: #2b7da1;
+}
+
+h1, header, title{
+    font-size: 1.5em;
+}
+
+input{
+    border: white;
+    max-width: 100px;
+}
+
+#name{
+    max-width: 250px;
+    width: 250px;
+}
+
+#strasse{
+    max-width: 500px;
+    width: 500px;
+}
+
+#muttersprache{
+    background-color: #b2d0dd;
+}

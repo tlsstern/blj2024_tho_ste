@@ -1,55 +1,130 @@
-th,
-td {
-    padding: 8px;
-    text-align: left;
-    background-color: white;
-    border-left: #b2d0dd 10px solid;
-    border-right: #b2d0dd 10px solid;
-    border-bottom: #b2d0dd 3px solid;
-    border-top: #b2d0dd 3px solid;
+html{
+    font-family: 'Quicksand';
+    
 }
-
-table{
-    border-collapse: collapse;
-    max-width: 70%;
-    width: 70%;
-    box-sizing: border-box;
+div{
+    display: flex;
+    vertical-align: bottom;
+    width:80%;
+    font-family: 'Quicksand';
 }
-
-th{
-    padding-top: 10px;
-    padding-bottom: 0px;
-    margin-bottom: 0;
-}
-
-body {
-    font-family: 'Quicksand', sans-serif;
-    padding: 30px;
-    margin: 0 15% 0 15%;
-}
-body, title, h1, p, input{
-    color: #2b7da1;
-}
-
-h1, header, title{
-    font-size: 1.5em;
-}
-
-input{
-    border: white;
-    max-width: 100px;
-}
-
-#name{
-    max-width: 250px;
-    width: 250px;
-}
-
-#strasse{
-    max-width: 500px;
-    width: 500px;
-}
-
-#muttersprache{
+.form {
+    display: inline-block;
+    position: relative;
     background-color: #b2d0dd;
+    color: #2b7da1;
+    padding: 10px;
+    height:auto;
+    font-size: 1em;
+    margin-left: 200px;
+    bottom: 0;
+    flex-direction: column;
+    vertical-align: bottom;
+}
+
+input[type=text] {
+    display: absolute;
+    color: #2b7da1;
+    border: none;
+    outline: none;
+    height: 1em;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    flex-grow: 1; 
+    vertical-align: bottom;
+    font-family: 'Quicksand';
+    font-size: 1.5em;    
+}
+
+pre {
+    display: inline;
+    tab-size: 21;
+    flex-grow:1;
+    position: absolute;
+    top:20;
+    
+}
+label{
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 22px;
+}
+.punkt{
+    display: inline;
+    font-size: 1.5em;
+    color:#2b7da1;
+}
+input[type=text]:hover {
+    color: black;
+}
+#name{
+    width:33%;
+    padding-left: 50px;
+}
+#vorname{
+    width:33%;
+    padding-left: 70px;
+}
+#geb-dat{
+    width: 19.5%;
+    padding-left: 85px;
+}
+#strasse {
+    width: 70.4%;
+    padding-left: 60px;
+}
+#PLZ {
+    width: 70.1%;
+    padding-left: 65px;
+}
+p{
+    display: inline;
+    padding-top: 0;
+}
+#masp{
+    position: absolute;
+    top: 55px;
+    right: 296x;
+}
+#muttersprache{
+    display: inline;
+}
+#other{
+    width: 19.3%;
+    padding-left: 60px;
+}
+.first{
+    width: 30.5%;
+    padding-left: 60px;
+}
+.second{
+        width: 25%;
+        padding-left: 75px;
+}
+#uslender{
+    position: absolute;
+    top: 292px;
+    right: 420px;
+}
+#nieder{
+    width: 20.1%;
+    padding-left: 65px;
+}
+#aus{
+    display: inline;
+}
+#stat{
+    margin-top: 0.5%;
+}
+.stern{
+    position: absolute;
+    top: 360px;
+    right: 430px;
+    font-size: 12px;
+}
+.klammer{
+    font-size: 4px;
+    position: absolute;
+    top: 385px;
+    right: 220px;
 }
