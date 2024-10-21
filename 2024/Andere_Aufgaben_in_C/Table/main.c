@@ -11,6 +11,13 @@ int main()
 
 void table_html() {
     FILE *file = fopen("../index.html", "w");
+    char family[50];
+    int size;
+    char color[50];
+    char bgcolor[50];
+    char bordercolor[50];
+    int borderwidth;
+    char borderstyle[50];
 
     printf("How many Colums do you want?\n");
     int colums;
@@ -19,10 +26,12 @@ void table_html() {
     int row;
     scanf("%d", &row);
 
-    fprintf(file,"\n\n\n\n\n\n");
-    fprintf(file,"<!DOCTYPE html>\n<html>\n<head>\n\t<title>Table</title>\n</head>\n");
+    fprintf(file,"<!DOCTYPE html>\n<html>\n<head>\n\t<title>Table</title>\n");
+    
+    fprintf(file,"</head>\n");
     fprintf(file,"<body>\n");
     fprintf(file,"\t<!-- Content here -->\n");
+    fprintf(file,"\t<h1>Hello World - Tabelle</h1>\n");
     fprintf(file,"\t<table>\n");
 
     for(int i = 1; i <= row; i++) {
@@ -30,7 +39,7 @@ void table_html() {
         if (i == 1) {
             for(int j = 1; j <= colums; j++) {
                 fprintf(file,"\t\t\t<td>\n");
-                fprintf(file,"\t\t\t\t<h1>Header %d<h1>\n", j);
+                fprintf(file,"\t\t\t\t<h1>Header %d</h1>\n", j);
                 fprintf(file,"\t\t\t</td>\n");
             }
         }else {
@@ -39,15 +48,17 @@ void table_html() {
                 fprintf(file,"\t\t\t\tHello World\n");
                 fprintf(file,"\t\t\t</td>\n");
             }
-
         }
 
         fprintf(file,"\t\t</tr>\n");
-
-
-        fclose(file);
     }
+    fprintf(file,"\t</table>\n");
+    fprintf(file,"</body>\n</html>\n");
+
+
+    fclose(file);
 }
+
 void basis_html() {
     printf("How many Colums do you want?\n");
     int colums;
@@ -60,6 +71,7 @@ void basis_html() {
     printf("<!DOCTYPE html>\n<html>\n<head>\n\t<title>Table</title>\n</head>\n");
     printf("<body>\n");
     printf("\t<!-- Content here -->\n");
+    printf("Hello World - Tabelle");
     printf("\t<table>\n");
 
     for(int i = 1; i <= row; i++) {
