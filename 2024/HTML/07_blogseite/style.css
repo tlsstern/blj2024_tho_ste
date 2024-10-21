@@ -6,7 +6,7 @@ body{
 
 a{
     text-decoration: none;
-    color: 7E60BF;
+    color: #7E60BF;
 }
 
 .navbar {
@@ -50,6 +50,7 @@ a{
     padding: 1em 2em;
     border-radius: 0.5em;
     line-height: 1.2em;
+    scroll-margin-top: 110px; 
 }
 
 #last_box{
@@ -76,6 +77,8 @@ footer a {
     text-decoration: none;
     color: #c4c4c4;
 }
+
+
 
 
 @media only screen and (max-width: 850px) {

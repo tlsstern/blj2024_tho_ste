@@ -30,7 +30,7 @@ int main(void) {
     printf("f [float]\t\t\t %f\t %x\t %o\t\n", f, f, f);
     printf("d [double]\t\t\t %f\t %x\t %o\t\n", d, d, d);
 
-    unsigned char uc = 258;
+    unsigned char uc = 254;
 
     printf("This is the size of %d\n",uc);
 

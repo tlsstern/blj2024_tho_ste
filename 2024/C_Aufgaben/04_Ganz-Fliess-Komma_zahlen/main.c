@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include <string.h>
 
 void kreis_umfang();
 void deci_octa_hex();
 void hex_octa_zu_dec();
 void char_128();
+void durch_mitnachkomma();
+void debugging();
 
 
 int main(void) {
@@ -12,7 +13,8 @@ int main(void) {
     kreis_umfang();
     hex_octa_zu_dec();
     char_128();
-
+    durch_mitnachkomma();
+    debugging();
 }
 
 void deci_octa_hex() {
@@ -48,4 +50,26 @@ void char_128() {
     signed char low = -128;
     printf("High %d, Low %d\n", high, low);
     // Nein nur -128 kann als signed Char dargstellt werden.
+}
+
+void durch_mitnachkomma() {
+    double a;
+    a = 2 /3;
+    printf("Ohne bearbeitung 2 / 3 = %.2f \n", a);
+    double b;
+    b = 2.0 /3.0;
+    printf("Ohne bearbeitung 2 / 3 = %.2f \n", b);
+    printf("Man kann nicht a = 2/3 machen weil der Code denkt 2 und 3 waeren int.  \nMan muss a = 2.0 / 3.0 machen dann denkt der Code es sind doubles \nund nicht ints.");
+}
+
+void debugging() {
+    double a = 0.0;
+    int i = 0;
+    for (i = 0; i < 10; i++) {
+        a = a + 1;
+    }
+    a = a / 10;
+    if (a == 1.0) {
+        printf("Das Resultat ist 1.0\n");
+    }
 }
