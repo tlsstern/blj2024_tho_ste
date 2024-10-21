@@ -27,7 +27,38 @@ void table_html() {
     scanf("%d", &row);
 
     fprintf(file,"<!DOCTYPE html>\n<html>\n<head>\n\t<title>Table</title>\n");
-    
+    fprintf(file, "\t<style>\n");
+    fprintf(file, "\t\ttable, tr, th{\n\t\t\tborder-collapse: collapse;\n\t\t\tmargin: 7px 15px 7px 15px;\n\t\t}\n");
+
+    printf("What font would you like? \n(Arial, Verdana, Times New Roman, Georgia, Courier)\n");
+    scanf("%s", family);
+    fprintf(file, "\t\t*{\n\t\t\tfont-family: %s;\n\t\t}\n", family);
+
+    printf("What font size would you like? (in px)\n");
+    scanf("%d", &size);
+    fprintf(file, "\t\ttr, td{\n\t\t\tfont-size: %dpx;\n\t\t}\n", size);
+
+    printf("What font color would you like? (black, red or #hexcode)\n");
+    scanf("%s", color);
+    fprintf(file, "\t\t*{\n\t\t\tcolor: %s;\n\t\t}\n", color);
+
+    printf("What background color would you like? (white, blue, #hexcode)\n");
+    scanf("%s", bgcolor);
+    fprintf(file, "\t\t*{\n\t\t\tbackground-color: %s;\n\t\t}\n", bgcolor);
+
+    printf("What border color would you like? (black, green, #hexcode)\n");
+    scanf("%s", bordercolor);
+    fprintf(file, "\t\ttr, th{\n\t\t\tborder-color: %s;\n\t\t}\n", bordercolor);
+
+    printf("What border width would you like? (in px)\n");
+    scanf("%d", &borderwidth);
+    fprintf(file, "\t\ttr, th{\n\t\t\tborder-width: %dpx;\n\t\t}\n", borderwidth);
+
+    printf("What border style would you like? \n(solid, dotted, dashed, double, groove, ridge, inset, outset, none, hidden)\n");
+    scanf("%s", borderstyle);
+    fprintf(file, "\t\ttr, th{\n\t\t\tborder-style: %s;\n\t\t}\n", borderstyle);
+
+    fprintf(file, "\t</style>\n");
     fprintf(file,"</head>\n");
     fprintf(file,"<body>\n");
     fprintf(file,"\t<!-- Content here -->\n");
