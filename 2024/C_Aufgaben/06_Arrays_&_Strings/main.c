@@ -1,12 +1,15 @@
 #include <ctype.h>
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+
 
 void wordTwist();
 void wordSquare();
 void anagram();
 void balken();
 void balken_stehend();
+void bubbleSort();
 
 int main(void) {
     // wordTwist();
@@ -75,7 +78,7 @@ void balken() {
     unsigned int diagramm[100];
     int anzahlWerte = 0;
     printf("Bitte geben Sie die Diagrammwerte ein (durch Leerschlag getrennt)\n");
-    printf("Am Ende einen Buchstaben schreiben");
+    printf("Am Ende einen Buchstaben schreiben\n");
 
     while (scanf("%d", &diagramm[anzahlWerte]) == 1) {
         anzahlWerte++;
@@ -89,4 +92,25 @@ void balken() {
     }
 }
 
-void balken_stehend() {}
+void balken_stehend() {
+    char zeichen[1];
+    printf("Bitte gebe Sie ein Zeichen ein, welches fur die Anzeige verwendet wird:\n");
+    scanf("%s", zeichen);
+
+    unsigned int diagramm[100];
+    int anzahlWerte = 0;
+    printf("Bitte geben Sie die Diagrammwerte ein (durch Leerschlag getrennt)\n");
+    printf("Am Ende einen Buchstaben schreiben\n");
+
+    while (scanf("%d", diagramm[anzahlWerte]) == 1) {
+        anzahlWerte++;
+    }
+
+    for (int i = 0; i < anzahlWerte; i++) {
+        for (int j = 0; j < diagramm[i]; j++) {
+
+            printf("%c", zeichen[0]);
+        }
+        printf("\n");
+    }
+}
