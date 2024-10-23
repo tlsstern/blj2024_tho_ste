@@ -23,9 +23,6 @@ void vorbereitung() {
     double y = 7.0;
     double p = 33.333;
     double q = 3.001;
-    int a = 1;
-    int b = 2;
-    int c = 3;
 
 
     printf("3 + 4 * 2 - 10 = 1\n");
@@ -67,6 +64,56 @@ void inkrement_dekrenebt() {
 }
 
 void BinToHex() {
+    int option;
+question:
+    printf("Welche Step willst du sehen?\n");
+    if (scanf("%d", &option) != 1) {
+        printf("Please enter a number\n");
+        fflush(stdin);
+        goto question;
+    }
+
+    if (option == 1) {
+        int a = 0xF;
+        int b = 0x4;
+        int result = a & b;
+
+        printf("Nur wenn beide Bits 1 sind, ist das Ergebnisbit ebenfalls 1.\n");
+
+        printf("0xF & 0x4 = 0x%X\n", result);
+        printf("1111\n0100\n====\n0100\n");
+    } else if (option == 2) {
+        int a = 0xF;
+        int b = 0x4;
+        int result = a | b;
+        printf("Wenn mindestens eines der beiden Bits 1 ist, ist das Ergebnis-Bit ebenfalls 1. \n");
+
+        printf("0xF & 0x4 = 0x%X\n", result);
+        printf("1111\n0100\n====\n1111\n");
+    } else if (option == 3) {
+        int a = 0xF;
+        int b = 0x4;
+        int result = a ^ b;
+
+        printf("Das Ergebnis-Bit ist 1, wenn die beiden Bits unterschiedlich sind, sonst ist es 0.\n");
+        printf("0xF & 0x4 = 0x%X\n", result);
+        printf("1111\n0100\n====\n1011\n");
+    } else if (option == 4) {
+        int hex = 0xF;
+        int hex_links = hex << 2;
+
+        printf("Wenn man 0xF zweimal nach links schiebt erhaelt man 0x%x\n", hex_links);
+        printf("001111\n====\n111100\n");
+    } else if (option == 5) {
+        int hex = 0xF;
+        int hex_rechts = hex >> 2;
+
+        printf("Wenn man 0xF zweimal nach links schiebt erhaelt man 0x%x\n", hex_rechts);
+        printf("1111\n====\n0011\n");
+    } else if (option == 6) {
+        printf("Wenn man 0xA invertiert erhaelt man 0x5\n");
+        printf("1010\n====\n0101\n");
+    }
 }
 
 void decToBin() {
