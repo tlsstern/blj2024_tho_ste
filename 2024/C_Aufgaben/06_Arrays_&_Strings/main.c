@@ -5,11 +5,15 @@
 void wordTwist();
 void wordSquare();
 void anagram();
+void balken();
+void balken_stehend();
 
 int main(void) {
-    wordTwist();
-    wordSquare();
-    anagram();
+    // wordTwist();
+    // wordSquare();
+    // anagram();
+    // balken();
+    balken_stehend();
     return 0;
 }
 
@@ -62,3 +66,27 @@ void anagram() {
         printf("Is not an anagram\n");
     }
 }
+
+void balken() {
+    char zeichen[1];
+    printf("Bitte gebe Sie ein Zeichen ein, welches fur die Anzeige verwendet wird:\n");
+    scanf("%s", zeichen);
+
+    unsigned int diagramm[100];
+    int anzahlWerte = 0;
+    printf("Bitte geben Sie die Diagrammwerte ein (durch Leerschlag getrennt)\n");
+    printf("Am Ende einen Buchstaben schreiben");
+
+    while (scanf("%d", &diagramm[anzahlWerte]) == 1) {
+        anzahlWerte++;
+    }
+
+    for (int i = 0; i < anzahlWerte; i++) {
+        for (int j = 0; j < diagramm[i]; j++) {
+            printf("%c", zeichen[0]);
+        }
+        printf("\n");
+    }
+}
+
+void balken_stehend() {}
