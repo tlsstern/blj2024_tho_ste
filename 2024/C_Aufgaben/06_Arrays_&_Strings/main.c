@@ -9,7 +9,8 @@ void wordSquare();
 void anagram();
 void balken();
 void balken_stehend();
-void bubbleSort();
+
+int BigNum(int arr[], int size);
 
 int main(void) {
     // wordTwist();
@@ -106,6 +107,10 @@ void balken_stehend() {
         anzahlWerte++;
     }
 
+    int size = anzahlWerte;
+
+    int bigNum = BigNum(diagramm, size);
+
     for (int i = 0; i < anzahlWerte; i++) {
         for (int j = 0; j < diagramm[i]; j++) {
 
@@ -113,4 +118,16 @@ void balken_stehend() {
         }
         printf("\n");
     }
+}
+
+int BigNum(int *arr, int n) {
+    int res = *arr;
+
+    for (int i = 1; i < n; i++) {
+        if (res < *(arr + i)) {
+            res = *(arr + i);
+        }
+    }
+
+    return res;
 }
