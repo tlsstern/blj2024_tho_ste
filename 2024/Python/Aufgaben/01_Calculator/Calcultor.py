@@ -386,6 +386,28 @@ def linear_functions():
         print(f"| {x + m * y} | {y} |")
     play_again()
 
+def life_science():
+    while True:
+        print("What do you want to calculate?")
+        print("1. BMI\t\t\t\t2. Blood Alcohol")
+        print("3. Optimal Bedtime\t4. Calorie Needs")
+        try:
+            choice = int(input("Enter your choice: "))
+            if choice == 1:
+                calculate_bmi()
+            elif choice == 2:
+                calculate_blood_alcohol()
+            elif choice == 3:
+                calculate_optimal_bedtime()
+            elif choice == 4:
+                calculate_calorie_needs()
+            else:
+                print("Invalid choice.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+        play_again()
+
+def calculate_bmi():
     while True:
         try:
             weight = float(input("Enter your weight in kilograms: "))
@@ -397,8 +419,6 @@ def linear_functions():
     print("Your BMI is:", bmi)
 
 def calculate_blood_alcohol():
-    """Calculates estimated blood alcohol content (BAC)."""
-    # This is a simplified calculation and should not be used for legal or medical purposes.
     print("This is a simplified calculation for educational purposes only.")
     while True:
         try:
@@ -409,16 +429,14 @@ def calculate_blood_alcohol():
         except ValueError:
             print("Invalid input. Please enter numbers only.")
 
-    # These factors can be adjusted for more accurate estimations based on gender and other factors
     alcohol_distribution_factor = 0.73
     alcohol_elimination_rate = 0.015
 
     bac = (num_drinks * 0.6 * 100) / (weight * alcohol_distribution_factor) - (alcohol_elimination_rate * hours_drinking)
-    bac = max(0, bac)  # Ensure BAC is not negative
+    bac = max(0, bac)
     print("Estimated Blood Alcohol Content (BAC):", bac)
 
 def calculate_optimal_bedtime():
-    """Calculates optimal bedtime based on sleep cycles."""
     print("This is a general guideline and may not be accurate for everyone.")
     while True:
         try:
@@ -429,8 +447,6 @@ def calculate_optimal_bedtime():
             print("Invalid input. Please enter a valid time and number.")
 
     try:
-        # This part will need to be adjusted based on your preferred time handling library
-        # This example is a basic illustration
         wake_up_hour = int(wake_up_time.split(':')[0])
         wake_up_minute = int(wake_up_time.split(':')[1].split(' ')[0])
         am_pm = wake_up_time.split(':')[1].split(' ')[1].lower()
@@ -448,9 +464,7 @@ def calculate_optimal_bedtime():
         print("Invalid time format.")
 
 def calculate_calorie_needs():
-    """Calculates estimated daily calorie needs."""
     print("This is a rough estimate and may vary based on individual factors.")
-    # This is a simplified example and should not be used for professional dietary advice.
     while True:
         try:
             weight = float(input("Enter your weight in kilograms: "))
@@ -461,10 +475,8 @@ def calculate_calorie_needs():
         except ValueError:
             print("Invalid input. Please enter numbers only.")
 
-    # Basal Metabolic Rate (BMR) calculation - This is a simplified formula
     bmr = 10 * weight + 6.25 * height - 5 * age + 5
 
-    # Activity factor - This can be adjusted for more specific levels
     activity_factors = [1.2, 1.375, 1.55, 1.725, 1.9]
     activity_factor = activity_factors[activity_level - 1]
 
@@ -473,7 +485,7 @@ def calculate_calorie_needs():
 
 def rock_paper_scissors():
     choices = ["rock", "paper", "scissors"]
-    user_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
+    user_choice = input("Enter your choice \nrock, paper, or scissors: ").lower()
     computer_choice = random.choice(choices)
 
     print("You chose:", user_choice)
