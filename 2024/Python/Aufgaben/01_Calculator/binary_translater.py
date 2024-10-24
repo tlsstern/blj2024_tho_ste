@@ -26,7 +26,7 @@ def choice():
             elif choice == 3:
                 exit(1)
             else:
-                print("Invalid choice. Please enter 1, 2, or 3.")
+                print("Invalid choice")
         except ValueError:
             print("Invalid input. Please enter a number.")
 
