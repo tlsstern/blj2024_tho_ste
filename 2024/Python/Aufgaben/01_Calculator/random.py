@@ -1,15 +1,32 @@
 def box():
-    i = 0
+    i = 1
+    j = 2
+    n = 2
     print("Welcome to my Box")
-    size = int(input("How big of a box would like to create?"))
+    word = input("How big of a box would like to create?\n")
+    print("\n")
+    length = len(word)
+    reverse_word = "".join(reversed(word))
 
-    while i < size:
-        print("x")
+
+    while i  < length:
+        print(word[i -1], end="")
         i += 1
-        if i > size - 1:
-            print("\n")
-            for i in size:
-                print("x")
+        if i > length - 1:
+            print(word[i-1])
+            while j < length:
+                print(word[j - 1], end="")
+                while n  < length:
+                    print(" ", end="")
+                    n += 1
+                print(reverse_word[j - 1])
+                j += 1
+                n = 2
+                i = 0
+            while i < length:
+                print(reverse_word[i], end="")
                 i += 1
+
+
 
 box()
