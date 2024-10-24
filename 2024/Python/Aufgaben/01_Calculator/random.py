@@ -3,8 +3,8 @@ def box():
     j = 2
     n = 2
     print("Welcome to my Box")
-    word = input("How big of a box would like to create?\n")
-    print("\n")
+    word = input("Enter a word for the Wordbox?\n")
+    print()
     length = len(word)
     reverse_word = "".join(reversed(word))
 
