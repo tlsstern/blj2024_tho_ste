@@ -52,9 +52,12 @@ int main(void) {
 
         if (input >= 1 && input <= 4) {
             move(input, field);
-        } else {
+        } else if (input == 0) {
             printf("Thank you for playing\n");
             exit(1);
+        } else {
+            printf("Invalid input\n");
+            goto start;
         }
         int match = 1;
 
