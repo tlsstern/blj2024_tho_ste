@@ -124,11 +124,13 @@ void randomizer(int move, int field[FIELD_SIZE][FIELD_SIZE]) {
 }
 
 void scramble(int field[FIELD_SIZE][FIELD_SIZE]) {
-    int moves = 10000;
+    int moves = 500;
+
 
     srand(time(NULL));
 
     for (int i = 0; i < moves; i++) {
-        randomizer(rand() % 4, field);
+        int move = rand() % 4 + 1;
+        randomizer(move, field);
     }
 }

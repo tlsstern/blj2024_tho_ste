@@ -42,8 +42,13 @@ int main(void) {
         // TODO: Implement the rules for the sliding puzzle. In other words,
         // swap neighboured values (horizontally or vertically) in the 2D array
         // based on user input, but only if the move is legal (bounds checking).
+        start:
+        if (scanf("%d", &input) != 1) {
+            printf("Invalid input\n");
+            fflush(stdin);
+            goto start;
+        }
 
-        scanf("%d", &input);
 
         if (input >= 1 && input <= 4) {
             move(input, field);
