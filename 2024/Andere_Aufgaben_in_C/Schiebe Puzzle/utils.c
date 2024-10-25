@@ -1,15 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "utils.h"
 
 /**
  * This function prints the given board state in an aesthetically pleasing way.
- * 
+ *
  * @param size  The size (both width and height) of the board.
  * @param field The board (2D array) to be printed.
  */
 
-
-void move();
 
 void printField(int size, int field[size][size]) {
     printf("\n+----+----+----+----+\n");
@@ -32,7 +32,7 @@ void printField(int size, int field[size][size]) {
 
 /**
  * This function swaps the values of two given variables using their addresses.
- * 
+ *
  * @param num1  The address of the first variable.
  * @param num2  The address of the second variable.
  */
@@ -87,5 +87,48 @@ void move(int move, int field[FIELD_SIZE][FIELD_SIZE]) {
     }
     else {
         printf("Invalid Input\n");
+    }
+}
+
+void randomizer(int move, int field[FIELD_SIZE][FIELD_SIZE]) {
+    int cordX = 0, cordY = 0;
+    for (int i = 0; i < FIELD_SIZE; i++) {
+        for (int j = 0; j < FIELD_SIZE; j++) {
+            if (field[i][j] == 0) {
+                cordX = i;
+                cordY = j;
+            }
+        }
+    }
+    if (move == 1) {
+        if (cordY > 0) {
+            cordY--;
+            swapValues(&field[cordX][cordY], &field[cordX][cordY + 1]);
+        }
+    } else if (move == 2) {
+        if (cordX > 0) {
+            cordX--;
+            swapValues(&field[cordX][cordY], &field[cordX + 1][cordY]);
+        }
+    } else if (move == 3) {
+        if (cordX < FIELD_SIZE - 1) {
+            cordX++;
+            swapValues(&field[cordX][cordY], &field[cordX - 1][cordY]);
+        }
+    } else if (move == 4) {
+        if (cordY < FIELD_SIZE - 1) {
+            cordY++;
+            swapValues(&field[cordX][cordY], &field[cordX][cordY - 1]);
+        }
+    }
+}
+
+void scramble(int field[FIELD_SIZE][FIELD_SIZE]) {
+    int moves = 10000;
+
+    srand(time(NULL));
+
+    for (int i = 0; i < moves; i++) {
+        randomizer(rand() % 4, field);
     }
 }
