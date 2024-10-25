@@ -27,6 +27,8 @@ def box():
                 print(reverse_word[i], end="")
                 i += 1
 
-
-
-box()
+while True:
+    box()
+    play_again = input("\n\nDo you want to play again? (y/n): ")
+    if play_again.lower() != 'y':
+        break
