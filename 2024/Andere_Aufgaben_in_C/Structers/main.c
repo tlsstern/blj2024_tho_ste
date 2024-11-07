@@ -42,8 +42,8 @@ void initFamily() {
     family[3].gebJahr = 2015;
     family[3].gewicht = 30;
     family[3].groesse = 124;
-    strcpy(family[3].club.name, "Tanzverein");
-    strcpy(family[3].club.thema, "Tanzen");
+    strcpy(family[3].club.name, "Tennisclub");
+    strcpy(family[3].club.thema, "Tennis");
 }
 
 void printPerson(TPerson person) {
@@ -73,15 +73,33 @@ void findOldestFamilyMember() {
     printPerson(oldest);
 }
 
+void sorted_age() {
+    for (int i = 1; i < 4; i++) {
+        for (int j = 0; j < 4 - i; j++) {
+
+        }
+    }
+}
+
 int main() {
-    // Familie initialisieren
     initFamily();
+    printf("How do you want to Sort this list?\n1. Unsorted\n2. Sorted after age\n3. Sorted by name\n4. Weight\n5. Size\n");
+    int choice;
+    scanf("%d", &choice);
 
-    // c) Familie ausgeben
-    printFamily();
-
-    // d) Älteste Person finden und ausgeben
-    findOldestFamilyMember();
+    if (choice == 1) {
+        printFamily();
+    }else if (choice == 2) {
+        sorted_age();
+    }else if (choice == 3) {
+        printf(":)");
+    }else if (choice == 4) {
+        printf("=)");
+    }else if (choice == 5) {
+        printf(";)");
+    }else {
+        printf("(=)");
+    }
 
     return 0;
 }
