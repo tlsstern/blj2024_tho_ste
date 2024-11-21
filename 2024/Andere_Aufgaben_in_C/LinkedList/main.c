@@ -2,22 +2,18 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct TNode {
-    char data[100];
-    char moredata[100];
-};
+typedef struct Node {
+    int data;
+    struct Node *next;
+    struct Node *previous;
+}TNode;
 
-int main() {
-
-    struct TNode* newNode = malloc(sizeof(struct TNode));
-
-    if (newNode == NULL) {
-        fprintf(stderr, "Speicherallokierung fehlgeschlagen!\n");
-        return 1;
-    }
+void main() {
+    TNode * Nodes;
+    Nodes = (TNode*)malloc(sizeof(TNode));
 
 
-    free(newNode);
 
-    return 0;
+    free(Nodes);
+
 }

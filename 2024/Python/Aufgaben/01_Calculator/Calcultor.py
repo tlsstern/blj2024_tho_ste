@@ -1,6 +1,5 @@
 import math
 import random
-import os
 
 def calculator():
     while True:
@@ -502,11 +501,13 @@ def rock_paper_scissors():
     play_again()
 
 def play_again():
-    answer = input("\nDo you want to play again?\nPress 1 if yes\nPress anything if no\n")
+    answer = input("\nDo you want to play again?\nPress 1 if yes\nPress 2 if no\n")
     if answer == "1":
         calculator()
-        clear_console()
-    else:
+    elif answer == "2":
         exit(1)
+    else:
+        print("Invalid input. Please enter 1 or 2.")
+        play_again()
 
 calculator()

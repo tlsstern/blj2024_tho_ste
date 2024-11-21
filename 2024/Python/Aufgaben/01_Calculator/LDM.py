@@ -16,7 +16,7 @@ def LdM():
     elif choice == 3:
         strings_arrays()
     elif choice == 4:
-        simple_cmd();
+        simple_cmd()
     else:
         print("Invalid input")
         LdM()
