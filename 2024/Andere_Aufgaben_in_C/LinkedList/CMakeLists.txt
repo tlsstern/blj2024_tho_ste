@@ -3,4 +3,6 @@ project(LinkedList C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(LinkedList main.c)
+add_executable(LinkedList main.c
+        tnode.c
+        tnode.h)
