@@ -1,25 +1,26 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F1F0E8;
-    color: #333;
+    background-color: #f8f8f8;
+    color: black;
 }
 
 .title {
-    color: #89A8B2;
+    color: #84d2f6;
+    font-weight: 700;
+    text-align: center;
 }
 
 .ingredients-box {
     border: 1px solid #B3C8CF;
-    background-color: #D0D8DD;
+    background-color: #bfdbf7;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     padding: 1.5rem;
-    width: 70%;
-    margin: 0 auto;
 }
 
 .ingredients-list {
     padding-left: 1.5rem;
+    list-style: disc;
 }
 
 .ingredients-list li {
@@ -27,10 +28,10 @@ body {
 }
 
 .carousel-image {
-    max-height: 500px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .carousel-caption {
@@ -38,5 +39,13 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 15px;
+    padding: 10px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 40%;
+    margin: 0 auto;
 }
