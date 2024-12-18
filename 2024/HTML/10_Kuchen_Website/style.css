@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #F1F0E8;
+    color: #333;
+}
+
+.title {
+    color: #89A8B2;
+}
+
+.ingredients-box {
+    border: 1px solid #B3C8CF;
+    background-color: #D0D8DD;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ingredients-list {
+    padding-left: 1.5rem;
+}
+
+.ingredients-list li {
+    margin-bottom: 0.7rem;
+}
+
+.carousel-image {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
