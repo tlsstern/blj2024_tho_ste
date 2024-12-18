@@ -1,14 +1,16 @@
 package ch.noseryoung.blj;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
+    // Creation of an Array
     static ArrayList<Person> personenListe = new ArrayList<>();
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Always gets exuted unless 4 is chosen
         while (true) {
             System.out.println("\nWas möchten Sie tun?");
             System.out.println("**************************");
@@ -18,9 +20,11 @@ public class Main {
             System.out.println("4. Programm beenden");
             System.out.println("**************************");
 
+            // Scanning the option
             int auswahl = scanner.nextInt();
             scanner.nextLine();
 
+            // Diffrent options
             switch (auswahl) {
                 case 1:
                     erstellePerson(scanner);

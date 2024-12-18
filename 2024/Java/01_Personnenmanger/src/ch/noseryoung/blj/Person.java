@@ -1,4 +1,5 @@
 package ch.noseryoung.blj;
+
 public class Person {
     private String name;
     private String lieblingsfarbe;
