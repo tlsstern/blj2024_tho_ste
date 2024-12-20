@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    color: black;
+}
+
+.title {
+    color: #84d2f6;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ingredients-box {
+    border: 1px solid #B3C8CF;
+    background-color: #bfdbf7;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.ingredients-list {
+    padding-left: 1.5rem;
+    list-style: disc;
+}
+
+.ingredients-list li {
+    margin-bottom: 0.7rem;
+}
+
+.carousel-image {
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        padding: 0 10px;
+        max-width: 75%;
+    }
+
+    .ingredients-box {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .ingredients-box {
+        padding: 0.8rem;
+    }
+
+    .grid-container{
+        max-width: 95%;
+    }
+
+    .btn {
+        width: 90%;
+    }
+}
